@@ -13,8 +13,8 @@ img {
 .carousel-inner img {
 	width: auto;
 	height: 700px;
+	filter: brightness(45%);
 }
-
 .carousel-caption {
 	bottom: 30% !important;
 	width: 50%!important;
@@ -27,7 +27,6 @@ img {
 .carousel-caption p {
 	font-size: 15px;
 }
-   
 
 
 /* --------------- Responsive__area --------------- */
@@ -125,4 +124,14 @@ img {
 		font-size: 12px;
 		padding: 5px 0!important;
 	}
+	.card__area img {height: 250px!important;}
+}
+
+/* *************** Popular Courses *************** */
+/* See More courses Button */
+@media only screen and (min-width: 992px) {
+	.view__all__button {display: none !important;}
+}
+@media only screen and (max-width: 991px) {
+	.see__more__button {display: none !important;}
 }
