@@ -1,4 +1,31 @@
+/* *************** Navbar *************** */
 img {
 	height: 50px;
 	width: 50px;
 }
+
+.register__hidden__sm__lg__area {
+	margin-right: 10px;
+}
+
+/* --------------- Responsive__area --------------- */
+/* *************** Navbar *************** */
+/* for sm screen */
+@media only screen and (max-width: 767px) {
+	.register__hidden__sm__lg {display: none!important;}
+}
+
+/* for lg screen */
+@media only screen and (min-width: 767px) {
+	.register__hidden__md {display: none!important;}
+}
+
+/* for md screen */
+@media only screen and (min-width: 992px) {
+	.register__hidden__sm__lg {display: none!important;}
+	.register__hidden__md {display: block!important;}
+}
+
+
+
+
