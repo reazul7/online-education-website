@@ -8,15 +8,21 @@ img {
 	margin-right: 10px;
 }
 
+
+/* *************** Banner *************** */
+.carousel-inner img {
+	width: auto;
+	/* height: 700px; */
+}
+
+
 /* --------------- Responsive__area --------------- */
 /* *************** Navbar *************** */
 /* for sm screen */
-@media only screen and (max-width: 767px) {
-	.register__hidden__sm__lg {display: none!important;}
-}
+
 
 /* for lg screen */
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 768px) {
 	.register__hidden__md {display: none!important;}
 }
 
@@ -26,6 +32,36 @@ img {
 	.register__hidden__md {display: block!important;}
 }
 
+/* *************** Banner *************** */
 
+@media only screen and (min-width: 1500px) {
+	.carousel-inner img {
+		height: 800px;
+	}
+}
+@media only screen and (min-width: 1750px) {
+	.carousel-inner img {
+		height: 900px;
+	}
+}
+@media only screen and (min-width: 2000px) {
+	.carousel-inner img {
+		height: 1000px;
+	}
+}
+@media only screen and (max-width: 991px) {
+	.carousel-inner img {
+		height: 600px;
+	}
+}
 
+/* common */
+@media only screen and (max-width: 767px) {
+	/* navbar */
+	.register__hidden__sm__lg {display: none!important;}
 
+	/* banner */
+	.carousel-inner img {
+		height: 300px;
+	}
+}
