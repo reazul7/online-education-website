@@ -12,15 +12,26 @@ img {
 /* *************** Banner *************** */
 .carousel-inner img {
 	width: auto;
-	/* height: 700px; */
+	height: 700px;
 }
+
+.carousel-caption {
+	bottom: 30% !important;
+	width: 50%!important;
+	text-align: center;
+	margin: 0 auto;
+}
+.carousel-caption h1 {
+	font-size: 50px;
+}
+.carousel-caption p {
+	font-size: 15px;
+}
+   
 
 
 /* --------------- Responsive__area --------------- */
 /* *************** Navbar *************** */
-/* for sm screen */
-
-
 /* for lg screen */
 @media only screen and (min-width: 768px) {
 	.register__hidden__md {display: none!important;}
@@ -34,24 +45,63 @@ img {
 
 /* *************** Banner *************** */
 
+@media only screen and (max-width: 1411px) {
+	.carousel-caption {
+		bottom: 25% !important;
+	}
+	.carousel-caption h1 {
+		font-size: 50px;
+	}
+	.carousel-caption p {
+		font-size: 15px;
+		padding: 8px 0!important;
+	}
+}
 @media only screen and (min-width: 1500px) {
 	.carousel-inner img {
 		height: 800px;
+	}
+	.carousel-caption {
+		bottom: 25% !important;
+	}
+	.carousel-caption h1 {
+		font-size: 65px;
+	}
+	.carousel-caption p {
+		font-size: 20px;
+		padding: 10px 0!important;
 	}
 }
 @media only screen and (min-width: 1750px) {
 	.carousel-inner img {
 		height: 900px;
 	}
+	.carousel-caption {
+		bottom: 28% !important;
+	}
 }
 @media only screen and (min-width: 2000px) {
 	.carousel-inner img {
 		height: 1000px;
 	}
+	.carousel-caption {
+		/* bottom: 50% !important; */
+	}
 }
 @media only screen and (max-width: 991px) {
 	.carousel-inner img {
 		height: 600px;
+	}
+	.carousel-caption {
+		bottom: 25% !important;
+		width: 80%!important;
+	}
+	.carousel-caption h1 {
+		font-size: 45px;
+	}
+	.carousel-caption p {
+		font-size: 15px;
+		padding: 5px 0!important;
 	}
 }
 
@@ -63,5 +113,16 @@ img {
 	/* banner */
 	.carousel-inner img {
 		height: 300px;
+	}
+	.carousel-caption {
+		bottom: 14% !important;
+		width: 80%!important;
+	}
+	.carousel-caption h1 {
+		font-size: 25px;
+	}
+	.carousel-caption p {
+		font-size: 12px;
+		padding: 5px 0!important;
 	}
 }
