@@ -239,6 +239,9 @@ img {
 }
 
 /* Explore Earning */
+@media only screen and (max-width: 991px) {
+	.trusted__companies__area {display: none;}
+}
 @media only screen and (max-width: 450px) {
 	.explore__earning__institute__area img {height: 350px;}
 }
