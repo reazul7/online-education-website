@@ -42,6 +42,35 @@ img {
 }
 
 
+/* *************** Explore Earning Institute *************** */
+.explore__earning__institute__area img {
+	height: 600px;
+}
+.explore__earning__text {
+	background-color: #F4FAFD !important;
+	position: relative;
+	top: 24%;
+}
+.explore__earning__bg__color {
+	background-color: #F4FAFD;
+}
+.extra_content {
+	margin: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.read__more {
+	background-color: #F4FAFD !important;
+	color: #289BDE;
+}
+.read__more  {
+	display: none;
+}
+.show {
+	display: block!important;
+}
+
+
 /* --------------- Responsive__area --------------- */
 /* *************** Navbar *************** */
 /* for lg screen */
@@ -117,6 +146,58 @@ img {
 	}
 }
 
+
+/* *************** Popular Courses *************** */
+/* See More courses Button */
+@media only screen and (min-width: 992px) {
+	.view__all__button {display: none !important;}
+}
+@media only screen and (max-width: 991px) {
+	.see__more__button {display: none !important;}
+}
+
+
+/* *************** Explore Earning Institute *************** */
+@media only screen and (max-width: 1122px) {
+	.explore__earning__text {
+		top: 23%;
+		padding-right: 5px !important;
+	}
+}
+@media only screen and (max-width: 991px) {
+	.explore__earning__text {
+		height: auto;
+		padding-right: 5px !important;
+	}
+	.explore__earning__institute__area img {
+		height: 500px;
+	}
+	.extra_content {
+		display: none;
+	}
+	#read__more {
+		display: block;
+	}
+	.see__more__btn__area button{
+		display: block !important;
+	}
+}
+
+@media only screen and (max-width: 912px) {
+	.explore__earning__text {
+		top: 22%;
+	}
+}
+
+@media only screen and (max-width: 8590px) {
+	.explore__earning__text {
+		top: 18%;
+	}
+}
+
+
+
+
 /* common */
 @media only screen and (max-width: 767px) {
 	/* navbar */
@@ -138,13 +219,12 @@ img {
 		padding: 5px 0!important;
 	}
 	.card__area img {height: 250px!important;}
+
+	/* Explore Earning */
+	.explore__earning__institute__area img {height: 450px;}
 }
 
-/* *************** Popular Courses *************** */
-/* See More courses Button */
-@media only screen and (min-width: 992px) {
-	.view__all__button {display: none !important;}
-}
-@media only screen and (max-width: 991px) {
-	.see__more__button {display: none !important;}
+/* Explore Earning */
+@media only screen and (max-width: 450px) {
+	.explore__earning__institute__area img {height: 350px;}
 }
