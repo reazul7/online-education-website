@@ -71,6 +71,15 @@ img {
 }
 
 
+/* *************** Ready to Join *************** */
+.ready__to__join__area .row {
+	background-color: #289BDE;
+}
+.ready__to__join__area .row button {
+	color: #289BDE;
+}
+
+
 /* --------------- Responsive__area --------------- */
 /* *************** Navbar *************** */
 /* for lg screen */
