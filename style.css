@@ -85,6 +85,19 @@ img {
 }
 
 
+/* *************** Footer *************** */
+footer {
+	background-color: #161616;
+}
+.footer__icon i {
+	background-color: #242424;
+	border-radius: 50%;
+	font-size: 20px;
+	padding: 8px;
+	margin: 3px;
+}
+
+
 /* --------------- Responsive__area --------------- */
 /* *************** Navbar *************** */
 /* for lg screen */
